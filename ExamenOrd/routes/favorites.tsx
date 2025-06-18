@@ -31,7 +31,7 @@ const Page = (props: PageProps<hpAPI[]>) => (
         <form method="POST" action={`/character/${char.id}`}>
           <input type="hidden" name="action" value="remove" />
           <input type="hidden" name="id" value={char.id} />
-          <button type="submit">❌ Quitar de favoritos</button>
+          <button type="submit"> Quitar de favoritos</button>
         </form>
       </div>
     ))}

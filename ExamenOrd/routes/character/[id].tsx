@@ -61,13 +61,13 @@ const Page = (props: PageProps<hpAPI>) => {
       <form method="POST">
         <input type="hidden" name="action" value="add" />
         <input type="hidden" name="id" value={props.data.id} />
-        <button type="submit">⭐</button>
+        <button type="submit">★</button>
       </form>
 
       <form method="POST">
         <input type="hidden" name="action" value="remove" />
         <input type="hidden" name="id" value={props.data.id} />
-        <button type="submit">❌</button>
+        <button type="submit">X</button>
       </form>
     </div>
     </div>
